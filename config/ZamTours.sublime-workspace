@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Hoe",
+				"HomepageComponant"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dictiona",
+				"Dictionary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "initializers/fog.rb",
+			"settings":
+			{
+				"buffer_size": 855,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# SQLite version 3.x\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem is defined in your Gemfile\n#   gem 'sqlite3'\n#\ndefault: &default\n  adapter: postgresql\n  encoding: unicode\n  pool: 5\n  host: localhost\n  username: \n  password: [Your password for DB]\n\ndevelopment:\n  <<: *default\n  database: [Your dev database name]\n\n# Warning: The database defined as \"test\" will be erased and\n# re-generated from your development database when you run \"rake\".\n# Do not set this db to the same as development or production.\ntest:\n  <<: *default\n  database: [Your test database name]",
+			"file": "database.yml",
+			"file_size": 594,
+			"file_write_time": 131555985660000000,
+			"settings":
+			{
+				"buffer_size": 574,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: INST",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 149.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/musomwale/ZamTour/Gemfile",
+		"/Users/musomwale/ZamTour/app/controllers/tour_items_controller.rb",
+		"/Users/musomwale/ZamTour/app/views/tour_items/show.html.erb",
+		"/Users/musomwale/ZamTour/config/initializers/fog.rb",
+		"/Users/musomwale/ZamTour/app/views/tour_items/index.html.erb",
+		"/Users/musomwale/ZamTour/db/migrate/20171120181501_fix_column_name.rb",
+		"/Users/musomwale/ZamTour/app/views/tour_items/_form.html.erb",
+		"/Users/musomwale/ZamTour/app/models/tour_item.rb",
+		"/Users/musomwale/ZamTour/app/uploaders/photo_uploader.rb",
+		"/Users/musomwale/ZamTour/config/application.yml",
+		"/Users/musomwale/Documents/homepage.componant.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/index.html",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/app/homepage.componant.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/app/main.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/app/app.module.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/src/app/app.component.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/node_modules/@angular/core/core.metadata.json",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/node_modules/@angular/core/package.json",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/node_modules/@angular/core/public_api.d.ts",
+		"/Users/musomwale/angular-rails/freelance-camp-fe/package.json",
+		"/Users/musomwale/Downloads/movierss/Gemfile",
+		"/Users/musomwale/Downloads/movierss/app/models/review.rb",
+		"/Users/musomwale/Downloads/movierss/app/models/feed_entry.rb",
+		"/Users/musomwale/Downloads/movierss/app/controllers/feed_entries_controller.rb",
+		"/Users/musomwale/Downloads/movierss/app/workers/review_query_worker.rb",
+		"/Users/musomwale/Downloads/movierss/app/workers/hard_worker.rb",
+		"/Users/musomwale/Downloads/movierss/app/controllers/reviews_controller.rb",
+		"/Users/musomwale/MapperApp/app/views/layouts/application.html.erb",
+		"/Users/musomwale/MapperApp/app/views/locations/show.html.erb",
+		"/Users/musomwale/MapperApp/config/initializers/application_controller_renderer.rb",
+		"/Users/musomwale/Downloads/movierss/config/environments/development.rb",
+		"/Users/musomwale/MapperApp/Gemfile",
+		"/Users/musomwale/MapperApp/app/views/locations/index.html.erb",
+		"/Users/musomwale/Downloads/movierss/config/database.yml",
+		"/Users/musomwale/MapperApp/app/assets/javascripts/googlemaps.js",
+		"/Users/musomwale/MapperApp/app/assets/stylesheets/application.scss",
+		"/Users/musomwale/MapperApp/app/assets/javascripts/application.js",
+		"/Users/musomwale/MapperApp/app/controllers/locations_controller.rb",
+		"/Users/musomwale/MapperApp/config/routes.rb",
+		"/Users/musomwale/MapperApp/app/assets/javascripts/google_maps.js",
+		"/Users/musomwale/MapperApp/app/models/location.rb",
+		"/Users/musomwale/MapperApp/vendor/Underscore.js",
+		"/Users/musomwale/MapperApp/vendor/Google MAPS API",
+		"/Users/musomwale/MapperApp/app/assets/stylesheets/cutom_stylesheets.scss",
+		"/Users/musomwale/GIT/traveller/app/models/location.rb",
+		"/Users/musomwale/GIT/traveller/db/migrate/20170625134917_create_locations.rb",
+		"/Users/musomwale/GIT/traveller/app/controllers/categories_controller.rb",
+		"/Users/musomwale/GIT/traveller/app/models/tour.rb",
+		"/Users/musomwale/GIT/traveller/app/models/place.rb",
+		"/Users/musomwale/GIT/traveller/app/models/category.rb",
+		"/Users/musomwale/GIT/traveller/app/views/tours/show.html.erb",
+		"/Users/musomwale/GIT/traveller/config/database.yml",
+		"/Users/musomwale/GIT/traveller/app/views/tours/_form.html.erb",
+		"/Users/musomwale/GIT/traveller/app/views/Untitled",
+		"/Users/musomwale/GIT/traveller/app/assets/stylesheets/application.scss",
+		"/Users/musomwale/GIT/traveller/app/views/layouts/application.html.erb",
+		"/Users/musomwale/GIT/traveller/Gemfile",
+		"/Users/musomwale/GIT/traveller/Gemfile.lock",
+		"/Users/musomwale/workspace/Gemfile",
+		"/Users/musomwale/Downloads/documentvault/app/admin/document.rb",
+		"/Users/musomwale/Downloads/documentvault/config/initializers/mime_types.rb",
+		"/Users/musomwale/Downloads/documentvault/app/controllers/documents_controller.rb",
+		"/Users/musomwale/Downloads/documentvault/Gemfile",
+		"/Users/musomwale/Downloads/documentvault/app/admin/dashboard.rb",
+		"/Users/musomwale/WSapp/app/views/dialects/_dialects_partial.erb",
+		"/Users/musomwale/WSapp/config/routes.rb",
+		"/Users/musomwale/WSapp/Gemfile",
+		"/Users/musomwale/WSapp/app/controllers/languages_controller.rb",
+		"/Users/musomwale/WSapp/app/controllers/dialects_controller.rb",
+		"/Users/musomwale/WSapp/app/models/dialect.rb",
+		"/Users/musomwale/WSapp/app/models/language.rb",
+		"/Users/musomwale/WSapp/app/views/dialects/index.html.erb",
+		"/Users/musomwale/WSapp/app/views/layouts/_header.html.erb",
+		"/Users/musomwale/WSapp/app/views/languages/show.html.erb",
+		"/Users/musomwale/WSapp/app/assets/stylesheets/custom.css.scss",
+		"/Users/musomwale/WSapp/app/views/languages/index.html.erb",
+		"/Users/musomwale/WSapp/app/views/languages/new.html.erb",
+		"/Users/musomwale/WSapp/app/views/languages/_form.html.erb",
+		"/Users/musomwale/WSapp/app/views/categories/show.html.erb",
+		"/Users/musomwale/WSapp/app/views/languages/edit.html.erb",
+		"/Users/musomwale/WSapp/test/controllers/languages_controller_test.rb",
+		"/Users/musomwale/WSapp/app/helpers/application_helper.rb",
+		"/Users/musomwale/WSapp/app/helpers/languages_helper.rb",
+		"/Users/musomwale/WSapp/app/controllers/categories_controller.rb",
+		"/Users/musomwale/WSapp/app/views/dictionaries/new.html.erb",
+		"/Users/musomwale/WSapp/app/views/dictionaries/index.html.erb",
+		"/Users/musomwale/WSapp/app/controllers/dictionaries_controller.rb",
+		"/Users/musomwale/WSapp/test/controllers/categories_controller_test.rb",
+		"/Users/musomwale/WSapp/app/views/categories/new.html.erb",
+		"/Users/musomwale/WSapp/test/controllers/dialects_controller_test.rb",
+		"/Users/musomwale/WSapp/app/views/languages/edit.erb",
+		"/Users/musomwale/WSapp/test/fixtures/languages.yml",
+		"/Users/musomwale/WSapp/test/fixtures/dictionaries.yml",
+		"/Users/musomwale/WSapp/test/fixtures/dialects.yml",
+		"/Users/musomwale/WSapp/app/views/dialects/_form.html.erb",
+		"/Users/musomwale/WSapp/test/controllers/dictionaries_controller_test.rb",
+		"/Users/musomwale/WSapp/app/views/dialects/show.html.erb",
+		"/Users/musomwale/WSapp/config/database.yml",
+		"/Users/musomwale/WSapp/app/views/layouts/application.html.erb",
+		"/Users/musomwale/WSapp/app/views/categories/index.html.erb",
+		"/Users/musomwale/WSapp/app/views/dialects/new.html.erb",
+		"/Users/musomwale/WSapp/app/views/categories/_form.html.erb",
+		"/Users/musomwale/WSapp/app/assets/stylesheets/application.css.scss",
+		"/Users/musomwale/WSapp/app/views/layouts/_shim.html.erb",
+		"/Users/musomwale/WSapp/app/assets/stylesheets/custom.scss",
+		"/Users/musomwale/Documents/LEARNING.rb",
+		"/Users/musomwale/Documents/httpscrape.rb",
+		"/Users/musomwale/Documents/learnenum.rb",
+		"/Users/musomwale/ProjectM/db/migrate/20161009222501_create_projects.rb",
+		"/Users/musomwale/ProjectM/app/models/company.rb",
+		"/Users/musomwale/ProjectM/app/models/project.rb",
+		"/Users/musomwale/ProjectM/app/models/task.rb",
+		"/Users/musomwale/ProjectM/app/controllers/application_controller.rb",
+		"/Users/musomwale/ProjectM/db/schema.rb",
+		"/Users/musomwale/ProjectM/db/migrate/20161009223628_create_tasks.rb",
+		"/Users/musomwale/ProjectM/db/migrate/20161013220824_create_companies.rb",
+		"/Users/musomwale/ProjectM/app/controllers/companies_controller.rb",
+		"/Users/musomwale/ProjectM/app/controllers/projects_controller.rb",
+		"/Users/musomwale/ProjectM/app/views/companies/_form.html.erb",
+		"/Users/musomwale/ProjectM/app/views/companies/index.html.erb",
+		"/Users/musomwale/ProjectM/app/views/companies/show.html.erb",
+		"/Users/musomwale/ProjectM/app/views/projects/_form.html.erb",
+		"/Users/musomwale/ProjectM/app/views/projects/index.html.erb",
+		"/Users/musomwale/ProjectM/app/views/projects/show.html.erb",
+		"/Users/musomwale/travel-agency/config/routes.rb",
+		"/Users/musomwale/travel-agency/app/models/room_category.rb",
+		"/Users/musomwale/travel-agency/db/schema.rb",
+		"/Users/musomwale/travel-agency/db/seeds.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/musomwale/ZamTour/app/views/tour_items"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"type",
+			":type"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"category",
+			":category"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/musomwale/ZamTour"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "initializers/fog.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
